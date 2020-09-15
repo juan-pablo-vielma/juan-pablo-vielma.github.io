@@ -94,17 +94,13 @@ large observational studies</a>.
 <li class="paper">
 <a href="#Strong-mixed-integer-programming-formulations-for-trained-FULL">Strong mixed-integer programming formulations for trained neural networks</a>.
 	R. Anderson, J. Huchette, W. Ma, C. Tjandraatmadja and J. P. Vielma.
-	
-		To appear in
-	<em>Mathematical Programming</em>, 2020.
-	</li>
+	<em>Mathematical Programming</em> 183, 2020.
+	 pp. 3-39.</li>
 <li class="paper">
 <a href="#Outer-Approximation-With-Conic">Outer approximation with conic certificates for mixed-integer convex problems</a>.
 	C. Coey, M. Lubin and J. P. Vielma.
-	
-		To appear in
-	<em>Mathematical Programming Computation</em>, 2019.
-	</li>
+	<em>Mathematical Programming Computation</em> 12, 2020.
+	 pp. 249-293.</li>
 <li class="paper">
 <a href="#a-geometric-way-to-build-strong">A geometric way to build strong mixed-integer programming formulations</a>.
 	J. Huchette and J. P. Vielma.
@@ -464,7 +460,7 @@ large observational studies</a>.
 <br><br><h3 class="topic" id="Disjunctive-Cuts-for-Mixed-Integer-Conic">Disjunctive cuts for mixed-integer conic optimization</h3>
 <p><a href="https://www.gerad.ca/en/people/andrea-lodi">Andrea Lodi</a>, <a href="https://www.gerad.ca/en/people/mathieu-tanneau">Mathieu Tanneau</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
-						Motivated by the recent success of conic formulations for Mixed-Integer Convex Optimization (MICONV), we investigate the impact of disjunctive cutting planes for Mixed-Integer Conic Optimization (MICONIC). We show that conic strong duality, guaranteed by a careful selection of a novel normalization in the conic separation problem, as well as the numerical maturity of interior-point methods for conic optimization allow to solve the theoretical and numerical issues encountered by many authors since the late 90s. As a result, the proposed approach allows algorithmic flexibility in the way the conic separation problem is solved and the resulting cuts are shown to be computationally effective to close a significant amount of gap for a large collection of instances.
+			This paper studies disjunctive cutting planes in Mixed-Integer Conic Programming. Building on conic duality, we formulate a cut-generating conic program for separating disjunctive cuts, and investigate the impact of the normalization condition on its resolution. In particular, we show that a careful selection of normalization guarantees its solvability and conic strong duality. Then, we highlight the shortcomings of separating conic-infeasible points in an outer-approximation context, and propose conic extensions to the classical lifting and monoidal strengthening procedures. Finally, we assess the computational behavior of various normalization conditions in terms of gap closed, computing time and cut sparsity. In the process, we show that our approach is competitive with the internal lift-and-project cuts of a state-of-the-art solver.
 			</blockquote>
 <p>Submitted for publication, 2019.
 	</p>
@@ -492,11 +488,9 @@ large observational studies</h3>
 <p><a href="http://rma350.github.io">Ross Anderson</a>, <a href="http://www.mit.edu/~huchette/">Joey Huchette</a>, <a href="http://web.mit.edu/willma/www/">Will Ma</a>, Christian Tjandraatmadja and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
 We present strong mixed-integer programming (MIP) formulations for high-dimensional piecewise linear functions that correspond to trained neural networks. These formulations can be used for a number of important tasks, such as verifying that an image classification network is robust to adversarial inputs, or solving decision problems where the objective function is a machine learning model. We present a generic framework, which may be of independent interest, that provides a way to construct sharp or ideal formulations for the maximum of d affine functions over arbitrary polyhedral input domains. We apply this result to derive MIP formulations for a number of the most popular nonlinear operations (e.g. ReLU and max pooling) that are strictly stronger than other approaches from the literature. We corroborate this computationally, showing that our formulations are able to offer substantial improvements in solve time on verification tasks for image classification networks.	</blockquote>
-<p>
-		To appear in
-	<a href="http://www.springerlink.com/content/103081/">Mathematical Programming</a>, 2020.
-	</p>
-<p><a href="https://arxiv.org/abs/1811.01988">[PDF]</a> <a href="http://dx.doi.org/10.1007/s10107-020-01474-5">[DOI:10.1007/s10107-020-01474-5]</a></p>
+<p><a href="http://www.springerlink.com/content/103081/">Mathematical Programming</a> 183, 2020.
+	 pp. 3-39.</p>
+<p><a href="https://arxiv.org/abs/1811.01988">[PDF]</a> <a href="http://dx.doi.org/10.1007/s10107-020-01474-5">[DOI:10.1007/s10107-020-01474-5]</a><a href="Strong-mixed-integer-programming-formulations-for-trained-FULL.bib">[BibTeX]</a></p>
 <br><br><h3 class="topic" id="Outer-Approximation-With-Conic">Outer approximation with conic certificates for mixed-integer convex problems</h3>
 <p><a href="https://github.com/chriscoey/">Chris Coey</a>, <a href="http://www.mit.edu/~mlubin/">Miles Lubin</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
@@ -509,11 +503,9 @@ Our new open source MI-conic solver Pajarito  uses an external mixed-integer lin
 Benchmarking on a library of mixed-integer second-order cone (MISOCP) problems, we find that Pajarito greatly outperforms Bonmin (the leading open source alternative) and is competitive with CPLEX's specialized MISOCP algorithm.
 We demonstrate the robustness of Pajarito by solving diverse MI-conic problems involving mixtures of positive semidefinite, second-order, and exponential cones, and provide evidence for the practical value of our analyses and enhancements of K* cuts.
 							</blockquote>
-<p>
-		To appear in
-	<a href="http://link.springer.com/journal/12532">Mathematical Programming Computation</a>, 2019.
-	</p>
-<p><a href="Outer-Approximation-With-Conic.pdf">[PDF]</a> <a href="https://doi.org/10.1007/s12532-020-00178-3">[DOI:10.1007/s12532-020-00178-3]</a></p>
+<p><a href="http://link.springer.com/journal/12532">Mathematical Programming Computation</a> 12, 2020.
+	 pp. 249-293.</p>
+<p><a href="Outer-Approximation-With-Conic.pdf">[PDF]</a> <a href="https://doi.org/10.1007/s12532-020-00178-3">[DOI:10.1007/s12532-020-00178-3]</a><a href="Outer-Approximation-With-Conic.bib">[BibTeX]</a></p>
 <br><br><h3 class="topic" id="a-geometric-way-to-build-strong">A geometric way to build strong mixed-integer programming formulations</h3>
 <p><a href="http://www.mit.edu/~huchette/">Joey Huchette</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
