@@ -66,23 +66,20 @@
 	Submitted for publication, 2020.
 	</li>
 <li class="paper">
-<a href="#The-Convex-Relaxation-Barrier-Revisited">The Convex Relaxation Barrier, Revisited: Tightened Single-Neuron Relaxations for Neural Network Verification</a>.
-	C. Tjandraatmadja, R. Anderson, J. Huchette, W. Ma, K. Patel and J. P. Vielma.
-	Submitted for publication, 2020.
-	</li>
-<li class="paper">
 <a href="#Disjunctive-Cuts-for-Mixed-Integer-Conic">Disjunctive cuts for mixed-integer conic optimization</a>.
 	A. Lodi, M. Tanneau and J. P. Vielma.
-	Submitted for publication, 2019.
-	</li>
-<li class="paper">
-<a href="#Regularity-in-mixed-integer-convex">Mixed-integer convex representability</a>.
-	M. Lubin, J. P. Vielma and I. Zadik.
 	Submitted for publication, 2019.
 	</li>
 </ol>
 <h3 class="topic">Peer Reviewed Journal Articles</h3>
 <ol>
+<li class="paper">
+<a href="#Regularity-in-mixed-integer-convex">Mixed-integer convex representability</a>.
+	M. Lubin, J. P. Vielma and I. Zadik.
+	
+		To appear in
+	<em>Mathematics of Operations Research</em>, 2020.
+	</li>
 <li class="paper">
 <a href="#Building-Representative-Matched-Samples">Building representative matched samples with multi-valued treatments in
 large observational studies</a>.
@@ -317,6 +314,14 @@ large observational studies</a>.
 <h3 class="topic">Peer Reviewed Conference Proceeding Articles</h3>
 <ol>
 <li class="paper">
+<a href="#The-Convex-Relaxation-Barrier-Revisited">The Convex Relaxation Barrier, Revisited: Tightened Single-Neuron Relaxations for Neural Network Verification</a>.
+	C. Tjandraatmadja, R. Anderson, J. Huchette, W. Ma, K. Patel and J. P. Vielma.
+	
+		To appear in
+	
+			Proceedings of the 34th Conference on Neural Information Processing Systems (NeurIPS 2020), 2020.
+	</li>
+<li class="paper">
 <a href="#Strong-mixed-integer-programming-formulations-for-trained-CONF">Strong mixed-integer programming formulations for trained neural networks</a>.
 	R. Anderson, J. Huchette, C. Tjandraatmadja and J. P. Vielma.
 	In A. Lodi and V. Nagarajan, editors, 
@@ -449,14 +454,6 @@ large observational studies</a>.
 <p>Submitted for publication, 2020.
 	</p>
 <p><a href="https://arxiv.org/abs/2005.01136">[PDF]</a></p>
-<br><br><h3 class="topic" id="The-Convex-Relaxation-Barrier-Revisited">The Convex Relaxation Barrier, Revisited: Tightened Single-Neuron Relaxations for Neural Network Verification</h3>
-<p>Christian Tjandraatmadja, <a href="http://rma350.github.io">Ross Anderson</a>, <a href="http://www.mit.edu/~huchette/">Joey Huchette</a>, <a href="http://web.mit.edu/willma/www/">Will Ma</a>, Krunal Patel and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
-<blockquote>
-										We improve the effectiveness of propagation- and linear-optimization-based neural network verification algorithms with a new tightened convex relaxation for ReLU neurons. Unlike previous single-neuron relaxations which focus only on the univariate input space of the ReLU, our method considers the multivariate input space of the affine pre-activation function preceding the ReLU. Using results from submodularity and convex geometry, we derive an explicit description of the tightest possible convex relaxation when this multivariate input is over a box domain. We show that our convex relaxation is significantly stronger than the commonly used univariate-input relaxation which has been proposed as a natural convex relaxation barrier for verification. While our description of the relaxation may require an exponential number of inequalities, we show that they can be separated in linear time and hence can be efficiently incorporated into optimization algorithms on an as-needed basis. Based on this novel relaxation, we design two polynomial-time algorithms for neural network verification: a linear-programming-based algorithm that leverages the full power of our relaxation, and a fast propagation algorithm that generalizes existing approaches. In both cases, we show that for a modest increase in computational effort, our strengthened relaxation enables us to verify a significantly larger number of instances compared to similar algorithms.
-												</blockquote>
-<p>Submitted for publication, 2020.
-	</p>
-<p><a href="https://arxiv.org/abs/2006.14076">[PDF]</a></p>
 <br><br><h3 class="topic" id="Disjunctive-Cuts-for-Mixed-Integer-Conic">Disjunctive cuts for mixed-integer conic optimization</h3>
 <p><a href="https://www.gerad.ca/en/people/andrea-lodi">Andrea Lodi</a>, <a href="https://www.gerad.ca/en/people/mathieu-tanneau">Mathieu Tanneau</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
@@ -468,9 +465,11 @@ large observational studies</a>.
 <br><br><h3 class="topic" id="Regularity-in-mixed-integer-convex">Mixed-integer convex representability</h3>
 <p><a href="http://www.mit.edu/~mlubin/">Miles Lubin</a>, <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a> and Ilias Zadik</p>
 <blockquote>
-	Motivated by recent advances in solution methods for mixed-integer convex optimization (MICP), we study the fundamental and open question of which sets can be represented exactly as feasible regions of MICP problems. We establish several results in this direction, including the first complete characterization for the mixed-binary case and a simple necessary condition for the general case. We use the latter to derive the first non-representability results for various non-convex sets such as the set of rank-1 matrices and the set of prime numbers. Finally, in correspondence with the seminal work on mixed-integer linear representability by Jeroslow and Lowe, we study the representability question under rationality assumptions. Under these rationality assumptions, we establish that representable sets obey strong regularity properties such as periodicity, and we provide a complete characterization of representable subsets of the natural numbers and of representable compact sets. Interestingly, in the case of subsets of natural numbers, our results provide a clear separation between the mathematical modeling power of mixed-integer linear and mixed-integer convex optimization. In the case of compact sets, our results imply that using unbounded integer variables is necessary only for modeling unbounded sets.
+				Motivated by recent advances in solution methods for mixed-integer convex optimization (MICP), we study the fundamental and open question of which sets can be represented exactly as feasible regions of MICP problems. We establish several results in this direction, including the first complete characterization for the mixed-binary case and a simple necessary condition for the general case. We use the latter to derive the first non-representability results for various non-convex sets such as the set of rank-1 matrices and the set of prime numbers. Finally, in correspondence with the seminal work on mixed-integer linear representability by Jeroslow and Lowe, we study the representability question under rationality assumptions. Under these rationality assumptions,  we establish that representable sets obey strong regularity properties such as periodicity, and we provide a complete characterization of representable subsets of the natural numbers and of representable compact sets. Interestingly, in the case of subsets of natural numbers, our results provide a clear separation between the mathematical modeling power of mixed-integer linear and mixed-integer convex optimization. In the case of compact sets, our results imply that using unbounded integer variables is necessary only for modeling unbounded sets.
 		</blockquote>
-<p>Submitted for publication, 2019.
+<p>
+		To appear in
+	<a href="http://mor.pubs.informs.org/">Mathematics of Operations Research</a>, 2020.
 	</p>
 <p><a href="https://arxiv.org/abs/1706.05135">[PDF]</a></p>
 <br><br><h3 class="topic" id="Building-Representative-Matched-Samples">Building representative matched samples with multi-valued treatments in
@@ -880,6 +879,17 @@ illustrate the computational improvement afforded by the use of these methods.
 <p><a href="http://www.elsevier.com/locate/ejor/">European Journal of Operational Research</a> 176, 2007.
 	 pp. 1246-1264.</p>
 <p><a href="Improving-Computational-Capabilities.pdf">[PDF]</a> <a href="http://dx.doi.org/10.1016/j.ejor.2005.09.016">[DOI:10.1016/j.ejor.2005.09.016]</a><a href="Improving-Computational-Capabilities.bib">[BibTeX]</a></p>
+<br><br><h3 class="topic" id="The-Convex-Relaxation-Barrier-Revisited">The Convex Relaxation Barrier, Revisited: Tightened Single-Neuron Relaxations for Neural Network Verification</h3>
+<p>Christian Tjandraatmadja, <a href="http://rma350.github.io">Ross Anderson</a>, <a href="http://www.mit.edu/~huchette/">Joey Huchette</a>, <a href="http://web.mit.edu/willma/www/">Will Ma</a>, Krunal Patel and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
+<blockquote>
+					We improve the effectiveness of propagation- and linear-optimization-based neural network verification algorithms with a new tightened convex relaxation for ReLU neurons. Unlike previous single-neuron relaxations which focus only on the univariate input space of the ReLU, our method considers the multivariate input space of the affine pre-activation function preceding the ReLU. Using results from submodularity and convex geometry, we derive an explicit description of the tightest possible convex relaxation when this multivariate input is over a box domain. We show that our convex relaxation is significantly stronger than the commonly used univariate-input relaxation which has been proposed as a natural convex relaxation barrier for verification. While our description of the relaxation may require an exponential number of inequalities, we show that they can be separated in linear time and hence can be efficiently incorporated into optimization algorithms on an as-needed basis. Based on this novel relaxation, we design two polynomial-time algorithms for neural network verification: a linear-programming-based algorithm that leverages the full power of our relaxation, and a fast propagation algorithm that generalizes existing approaches. In both cases, we show that for a modest increase in computational effort, our strengthened relaxation enables us to verify a significantly larger number of instances compared to similar algorithms.
+							</blockquote>
+<p>
+		To appear in
+	
+			Proceedings of the <a href="https://neurips.cc/">34th Conference on Neural Information Processing Systems (NeurIPS 2020)</a>, 2020.
+	</p>
+<p><a href="https://arxiv.org/abs/2006.14076">[PDF]</a></p>
 <br><br><h3 class="topic" id="Strong-mixed-integer-programming-formulations-for-trained-CONF">Strong mixed-integer programming formulations for trained neural networks</h3>
 <p><a href="http://rma350.github.io">Ross Anderson</a>, <a href="http://www.mit.edu/~huchette/">Joey Huchette</a>, Christian Tjandraatmadja and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
