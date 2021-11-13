@@ -65,7 +65,7 @@
 	M. Lubin, J. P. Vielma and I. Zadik.
 	
 		To appear in
-	<em>Mathematics of Operations Research</em>, 2020.
+	<em>Mathematics of Operations Research</em>, 2021.
 	</li>
 <li class="paper">
 <a href="#The-Convex-Relaxation-Barrier-Revisited">The Convex Relaxation Barrier, Revisited: Tightened Single-Neuron Relaxations for Neural Network Verification</a>.
@@ -248,12 +248,27 @@
 	Submitted for publication, 2021.
 	</li>
 <li class="paper">
-<a href="#Sum-of-squares-generalizations">Sum of squares generalizations for conic sets</a>.
+<a href="#Sum-of-squares-generalizations">Conic optimization with spectral functions on Euclidean Jordan algebras</a>.
 	C. Coey, L. Kapelevich and J. P. Vielma.
 	Submitted for publication, 2021.
 	</li>
 <li class="paper">
-<a href="#Towards-Practical-Generic-Conic-Optimization">Towards practical generic conic optimization</a>.
+<a href="#Sum-of-squares-generalizations">Sum of squares generalizations for conic sets</a>.
+	L. Kapelevich, C. Coey and J. P. Vielma.
+	Submitted for publication, 2021.
+	</li>
+<li class="paper">
+<a href="#Performance-Enhancements-Generic-Conic">Performance enhancements for a generic conic interior point algorithm</a>.
+	C. Coey, L. Kapelevich and J. P. Vielma.
+	Submitted for publication, 2021.
+	</li>
+<li class="paper">
+<a href="#Constrained-Discrete-Black-Box">Constrained discrete black-box optimization using mixed-integer programming</a>.
+	T. P. Papalexopoulos, C. Tjandraatmadja, R. Anderson, J. P. Vielma and D. Belanger.
+	Submitted for publication, 2021.
+	</li>
+<li class="paper">
+<a href="#Solving-Natural-Conic-Formulations">Solving natural conic formulations with Hypatia.jl</a>.
 	C. Coey, L. Kapelevich and J. P. Vielma.
 	Submitted for publication, 2020.
 	</li>
@@ -264,6 +279,16 @@
 	</li>
 </ol>
 <br><br><br><h2>Publication Details</h2>
+<br><br><h3 class="topic" id="Regularity-in-mixed-integer-convex">Mixed-integer convex representability</h3>
+<p><a href="https://mlubin.github.io/">Miles Lubin</a>, <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a> and <a href="https://cims.nyu.edu/~iz368/">Ilias Zadik</a></p>
+<blockquote>
+				Motivated by recent advances in solution methods for mixed-integer convex optimization (MICP), we study the fundamental and open question of which sets can be represented exactly as feasible regions of MICP problems. We establish several results in this direction, including the first complete characterization for the mixed-binary case and a simple necessary condition for the general case. We use the latter to derive the first non-representability results for various non-convex sets such as the set of rank-1 matrices and the set of prime numbers. Finally, in correspondence with the seminal work on mixed-integer linear representability by Jeroslow and Lowe, we study the representability question under rationality assumptions. Under these rationality assumptions,  we establish that representable sets obey strong regularity properties such as periodicity, and we provide a complete characterization of representable subsets of the natural numbers and of representable compact sets. Interestingly, in the case of subsets of natural numbers, our results provide a clear separation between the mathematical modeling power of mixed-integer linear and mixed-integer convex optimization. In the case of compact sets, our results imply that using unbounded integer variables is necessary only for modeling unbounded sets.
+		</blockquote>
+<p>
+		To appear in
+	<a href="http://mor.pubs.informs.org/">Mathematics of Operations Research</a>, 2021.
+	</p>
+<p><a href="https://arxiv.org/abs/1706.05135">[PDF]</a> <a href="https://doi.org/10.1287/moor.2021.1146">[DOI:10.1287/moor.2021.1146]</a></p>
 <br><br><h3 class="topic" id="Shapes-and-recession-cones">Shapes and recession cones in mixed-integer convex representability</h3>
 <p><a href="https://cims.nyu.edu/~iz368/">Ilias Zadik</a>, <a href="https://mlubin.github.io/">Miles Lubin</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
@@ -272,24 +297,38 @@
 <p>Submitted for publication, 2021.
 	</p>
 <p><a href="https://arxiv.org/abs/2103.03379">[PDF]</a></p>
-<br><br><h3 class="topic" id="Sum-of-squares-generalizations">Sum of squares generalizations for conic sets</h3>
+<br><br><h3 class="topic" id="Sum-of-squares-generalizations">Conic optimization with spectral functions on Euclidean Jordan algebras</h3>
 <p><a href="https://github.com/chriscoey/">Chris Coey</a>, <a href="https://lkapelevich.github.io/">Lea Kapelevich</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
+<blockquote>
+Spectral functions on Euclidean Jordan algebras arise frequently in convex models. Despite the success of primal-dual conic interior point solvers, there has been little work on enabling direct support for spectral cones, i.e. proper nonsymmetric cones defined from epigraphs and perspectives of spectral functions. We propose simple logarithmically homogeneous barriers for spectral cones and we derive efficient, numerically stable procedures for evaluating barrier oracles such as inverse Hessian operators. For two useful classes of spectral cones - the root-determinant cones and the matrix monotone derivative cones - we show that the barriers are self-concordant, with nearly optimal parameters. We implement these cones and oracles in our open source solver Hypatia, and we write simple, natural formulations for four applied problems. Our computational benchmarks demonstrate that Hypatia often solves the natural formulations more efficiently than advanced solvers such as MOSEK 9 solve equivalent extended formulations written using only the cones these solvers support.
+											</blockquote>
+<p>Submitted for publication, 2021.
+	</p>
+<p><a href="https://arxiv.org/abs/2103.04104">[PDF]</a></p>
+<br><br><h3 class="topic" id="Sum-of-squares-generalizations">Sum of squares generalizations for conic sets</h3>
+<p><a href="https://lkapelevich.github.io/">Lea Kapelevich</a>, <a href="https://github.com/chriscoey/">Chris Coey</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
 				In polynomial optimization problems, nonnegativity constraints are typically handled using the sum of squares condition. This can be efficiently enforced using semidefinite programming formulations, or as more recently proposed by Papp and Yildiz 2019, using the sum of squares cone directly in a nonsymmetric interior point algorithm. Beyond nonnegativity, more complicated polynomial constraints (in particular, generalizations of the positive semidefinite, second order and â1-norm cones) can also be modeled through structured sum of squares programs. We take a different approach and propose using more specialized polynomial cones instead. This can result in lower dimensional formulations, more efficient oracles for interior point methods, or self-concordant barriers with lower parameters. In most cases, these algorithmic advantages also translate to faster solving times in practice.
 								</blockquote>
 <p>Submitted for publication, 2021.
 	</p>
 <p><a href="https://arxiv.org/abs/2103.11499">[PDF]</a></p>
-<br><br><h3 class="topic" id="Regularity-in-mixed-integer-convex">Mixed-integer convex representability</h3>
-<p><a href="https://mlubin.github.io/">Miles Lubin</a>, <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a> and <a href="https://cims.nyu.edu/~iz368/">Ilias Zadik</a></p>
+<br><br><h3 class="topic" id="Performance-Enhancements-Generic-Conic">Performance enhancements for a generic conic interior point algorithm</h3>
+<p><a href="https://github.com/chriscoey/">Chris Coey</a>, <a href="https://lkapelevich.github.io/">Lea Kapelevich</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
-				Motivated by recent advances in solution methods for mixed-integer convex optimization (MICP), we study the fundamental and open question of which sets can be represented exactly as feasible regions of MICP problems. We establish several results in this direction, including the first complete characterization for the mixed-binary case and a simple necessary condition for the general case. We use the latter to derive the first non-representability results for various non-convex sets such as the set of rank-1 matrices and the set of prime numbers. Finally, in correspondence with the seminal work on mixed-integer linear representability by Jeroslow and Lowe, we study the representability question under rationality assumptions. Under these rationality assumptions,  we establish that representable sets obey strong regularity properties such as periodicity, and we provide a complete characterization of representable subsets of the natural numbers and of representable compact sets. Interestingly, in the case of subsets of natural numbers, our results provide a clear separation between the mathematical modeling power of mixed-integer linear and mixed-integer convex optimization. In the case of compact sets, our results imply that using unbounded integer variables is necessary only for modeling unbounded sets.
-		</blockquote>
-<p>
-		To appear in
-	<a href="http://mor.pubs.informs.org/">Mathematics of Operations Research</a>, 2020.
+In recent work, we provide computational arguments for expanding the class of proper cones recognized by conic optimization solvers, to permit simpler, smaller, more natural conic formulations. We define an exotic cone as a proper cone for which we can implement a small set of tractable (i.e. fast, numerically stable, analytic) oracles for a logarithmically homogeneous self-concordant barrier for the cone or for its dual cone. Our extensible, open source conic interior point solver, Hypatia, allows modeling and solving any conic optimization problem over a Cartesian product of exotic cones. In this paper, we introduce Hypatia's interior point algorithm. Our algorithm is based on that of Skajaa and Ye [2015], which we generalize by handling exotic cones without tractable primal oracles. With the goal of improving iteration count and solve time in practice, we propose a sequence of four enhancements to the interior point stepping procedure of Skajaa and Ye [2015]: (1) loosening the central path proximity condition, (2) adjusting the directions using a third order directional derivative barrier oracle, (3) performing a backtracking search on a curve, and (4) combining the prediction and centering directions. We implement 23 useful exotic cones in Hypatia. We summarize the complexity of computing oracles for these cones, showing that our new third order oracle is not a bottleneck, and we derive efficient and numerically stable oracle implementations for several cones. We generate a diverse benchmark set of 379 conic problems from 37 different applied examples. Our computational testing shows that each stepping enhancement improves Hypatia's iteration count and solve time. Altogether, the enhancements reduce the shifted geometric means of iteration count and solve time by over 80% and 70% respectively.
+					</blockquote>
+<p>Submitted for publication, 2021.
 	</p>
-<p><a href="https://arxiv.org/abs/1706.05135">[PDF]</a></p>
+<p><a href="https://arxiv.org/abs/2107.04262">[PDF]</a></p>
+<br><br><h3 class="topic" id="Constrained-Discrete-Black-Box">Constrained discrete black-box optimization using mixed-integer programming</h3>
+<p>Theodore P. Papalexopoulos, <a href="https://research.google/people/ChristianTjandraatmadja/">Christian Tjandraatmadja</a>, <a href="https://research.google/people/RossMichaelAnderson/">Ross Anderson</a>, <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a> and <a href="https://davidbelanger.github.io/">David Belanger</a></p>
+<blockquote>
+Discrete black-box optimization problems are challenging for model-based optimization (MBO) algorithms, such as Bayesian optimization, due to the size of the search space and the need to satisfy combinatorial constraints. In particular, these methods require repeatedly solving a complex discrete global optimization problem in the inner loop, where popular heuristic inner-loop solvers introduce approximations and are difficult to adapt to combinatorial constraints. In response, we propose NN+MILP, a general discrete MBO framework using piecewise-linear neural networks as surrogate models and mixed-integer linear programming (MILP) to optimize the acquisition function. MILP provides optimality guarantees and a versatile declarative language for domain-specific constraints. We test our approach on a range of unconstrained and constrained problems, including DNA binding and the NAS-Bench-101 neural architecture search benchmark. NN+MILP surpasses or matches the performance of algorithms tailored to the domain at hand, with global optimization of the acquisition problem running in a few minutes using only standard software packages and hardware.
+														</blockquote>
+<p>Submitted for publication, 2021.
+	</p>
+<p><a href="https://arxiv.org/abs/2110.09569">[PDF]</a></p>
 <br><br><h3 class="topic" id="The-Convex-Relaxation-Barrier-Revisited">The Convex Relaxation Barrier, Revisited: Tightened Single-Neuron Relaxations for Neural Network Verification</h3>
 <p><a href="https://research.google/people/ChristianTjandraatmadja/">Christian Tjandraatmadja</a>, <a href="https://research.google/people/RossMichaelAnderson/">Ross Anderson</a>, <a href="http://www.joehuchette.com/">Joey Huchette</a>, <a href="http://www.columbia.edu/~wm2428/">Will Ma</a>, Krunal Patel and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
@@ -330,10 +369,10 @@ We study dynamic decision-making under uncertainty when, at each period, a decis
 <p><a href="http://pubsonline.informs.org/journal/opre">Operations Research</a> 68, 2020.
 	 pp. 1285-1624.</p>
 <p><a href="Learning-in-Combinatorial-Optimization.pdf">[PDF]</a> <a href="https://doi.org/10.1287/opre.2019.1926">[DOI:10.1287/opre.2019.1926]</a><a href="Learning-in-Combinatorial-Optimization.bib">[BibTeX]</a></p>
-<br><br><h3 class="topic" id="Towards-Practical-Generic-Conic-Optimization">Towards practical generic conic optimization</h3>
+<br><br><h3 class="topic" id="Solving-Natural-Conic-Formulations">Solving natural conic formulations with Hypatia.jl</h3>
 <p><a href="https://github.com/chriscoey/">Chris Coey</a>, <a href="https://lkapelevich.github.io/">Lea Kapelevich</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
-						Many convex problems can be represented through conic extended formulations with auxiliary variables and constraints using only the small number of standard cones recognized by advanced conic solvers such as MOSEK 9. Such extended formulations are often significantly larger and more complex than equivalent conic natural formulations, which can use a much larger class of exotic cones. We define an exotic cone as a proper cone for which we can implement efficient logarithmically homogeneous self-concordant barrier oracles for the cone or its dual. Our goal is to establish whether a generic conic interior point method supporting natural formulations can outperform an advanced conic solver specialized for standard cones. We introduce Hypatia, a highly-configurable open-source conic primal-dual interior point solver with a generic interface for exotic cones. Hypatia is written in Julia and accessible through a native interface or the modeling language JuMP, and currently implements over two dozen predefined cones of interest. Using six example problems, we demonstrate significant advantages in terms of solve time, memory usage, and numerical robustness from solving natural formulations with Hypatia, compared to solving extended formulations with Hypatia or MOSEK.
+					Many convex optimization problems can be represented through conic extended formulations with auxiliary variables and constraints using only the small number of standard cones recognized by advanced conic solvers such as MOSEK 9. Such extended formulations are often significantly larger and more complex than equivalent conic natural formulations, which can use a much broader class of exotic cones. We define an exotic cone as a proper cone for which we can implement tractable logarithmically homogeneous self-concordant barrier oracles for either the cone or its dual cone. In this paper we introduce Hypatia, a highly-configurable open-source conic primal-dual interior point solver with a generic interface for exotic cones. Hypatia is written in Julia and accessible through JuMP, and currently implements around two dozen useful predefined cones (some with multiple variants). We define some of Hypatia's exotic cones, and for conic constraints over these cones, we analyze techniques for constructing equivalent representations using the standard cones. For optimization problems from a variety of applications, we introduce natural formulations using these exotic cones, and we show that the natural formulations are simpler and lower-dimensional than the equivalent extended formulations. Our computational experiments demonstrate the potential advantages, especially in terms of solve time and memory usage, of solving the natural formulations with Hypatia compared to solving the extended formulations with either Hypatia or MOSEK 9.
 						</blockquote>
 <p>Submitted for publication, 2020.
 	</p>
