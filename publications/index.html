@@ -243,12 +243,17 @@
 <h3 class="topic">Submitted</h3>
 <ol>
 <li class="paper">
+<a href="#computing-conjugate-barrier-information">Computing conjugate barrier information for nonsymmetric cones</a>.
+	L. Kapelevich, E. D. Andersen and J. P. Vielma.
+	Submitted for publication, 2022.
+	</li>
+<li class="paper">
 <a href="#Shapes-and-recession-cones">Shapes and recession cones in mixed-integer convex representability</a>.
 	I. Zadik, M. Lubin and J. P. Vielma.
 	Submitted for publication, 2021.
 	</li>
 <li class="paper">
-<a href="#Sum-of-squares-generalizations">Conic optimization with spectral functions on Euclidean Jordan algebras</a>.
+<a href="#conic-optimization-with-spectral-functions">Conic optimization with spectral functions on Euclidean Jordan algebras</a>.
 	C. Coey, L. Kapelevich and J. P. Vielma.
 	Submitted for publication, 2021.
 	</li>
@@ -279,6 +284,14 @@
 	</li>
 </ol>
 <br><br><br><h2>Publication Details</h2>
+<br><br><h3 class="topic" id="computing-conjugate-barrier-information">Computing conjugate barrier information for nonsymmetric cones</h3>
+<p><a href="https://lkapelevich.github.io/">Lea Kapelevich</a>, <a href="https://sites.google.com/andersens.name/erlingdandersen/startside">Erling D. Andersen</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
+<blockquote>
+The recent interior point algorithm by Dahl and Andersen, 2021 for nonsymmetric cones requires derivative information from the conjugate of the barrier function of the cones in the problem. Besides a few special cases, there is no indication of when this information is efficient to evaluate. We show how to compute the gradient of the conjugate barrier function for seven useful nonsymmetric cones. In some cases this is helpful for deriving closed-form expressions for the inverse Hessian operator for the primal barrier.
+												</blockquote>
+<p>Submitted for publication, 2022.
+	</p>
+<p><a href="https://arxiv.org/abs/2201.04121">[PDF]</a></p>
 <br><br><h3 class="topic" id="Regularity-in-mixed-integer-convex">Mixed-integer convex representability</h3>
 <p><a href="https://mlubin.github.io/">Miles Lubin</a>, <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a> and <a href="https://cims.nyu.edu/~iz368/">Ilias Zadik</a></p>
 <blockquote>
@@ -297,7 +310,7 @@
 <p>Submitted for publication, 2021.
 	</p>
 <p><a href="https://arxiv.org/abs/2103.03379">[PDF]</a></p>
-<br><br><h3 class="topic" id="Sum-of-squares-generalizations">Conic optimization with spectral functions on Euclidean Jordan algebras</h3>
+<br><br><h3 class="topic" id="conic-optimization-with-spectral-functions">Conic optimization with spectral functions on Euclidean Jordan algebras</h3>
 <p><a href="https://github.com/chriscoey/">Chris Coey</a>, <a href="https://lkapelevich.github.io/">Lea Kapelevich</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
 Spectral functions on Euclidean Jordan algebras arise frequently in convex models. Despite the success of primal-dual conic interior point solvers, there has been little work on enabling direct support for spectral cones, i.e. proper nonsymmetric cones defined from epigraphs and perspectives of spectral functions. We propose simple logarithmically homogeneous barriers for spectral cones and we derive efficient, numerically stable procedures for evaluating barrier oracles such as inverse Hessian operators. For two useful classes of spectral cones - the root-determinant cones and the matrix monotone derivative cones - we show that the barriers are self-concordant, with nearly optimal parameters. We implement these cones and oracles in our open source solver Hypatia, and we write simple, natural formulations for four applied problems. Our computational benchmarks demonstrate that Hypatia often solves the natural formulations more efficiently than advanced solvers such as MOSEK 9 solve equivalent extended formulations written using only the cones these solvers support.
