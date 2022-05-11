@@ -76,11 +76,6 @@
 	Submitted for publication, 2021.
 	</li>
 <li class="paper">
-<a href="#Sum-of-squares-generalizations">Sum of squares generalizations for conic sets</a>.
-	L. Kapelevich, C. Coey and J. P. Vielma.
-	Submitted for publication, 2021.
-	</li>
-<li class="paper">
 <a href="#Performance-Enhancements-Generic-Conic">Performance enhancements for a generic conic interior point algorithm</a>.
 	C. Coey, L. Kapelevich and J. P. Vielma.
 	Submitted for publication, 2021.
@@ -91,11 +86,6 @@
 	Submitted for publication, 2021.
 	</li>
 <li class="paper">
-<a href="#Solving-Natural-Conic-Formulations">Solving natural conic formulations with Hypatia.jl</a>.
-	C. Coey, L. Kapelevich and J. P. Vielma.
-	Submitted for publication, 2020.
-	</li>
-<li class="paper">
 <a href="#Disjunctive-Cuts-for-Mixed-Integer-Conic">Disjunctive cuts for mixed-integer conic optimization</a>.
 	A. Lodi, M. Tanneau and J. P. Vielma.
 	Submitted for publication, 2019.
@@ -104,12 +94,24 @@
 <h3 class="topic">Peer Reviewed Journal Articles</h3>
 <ol>
 <li class="paper">
-<a href="#Regularity-in-mixed-integer-convex">Mixed-integer convex representability</a>.
-	M. Lubin, J. P. Vielma and I. Zadik.
+<a href="#Sum-of-squares-generalizations">Sum of squares generalizations for conic sets</a>.
+	L. Kapelevich, C. Coey and J. P. Vielma.
 	
 		To appear in
-	<em>Mathematics of Operations Research</em>, 2021.
+	<em>Mathematical Programming</em>, 2022.
 	</li>
+<li class="paper">
+<a href="#Solving-Natural-Conic-Formulations">Solving natural conic formulations with Hypatia.jl</a>.
+	C. Coey, L. Kapelevich and J. P. Vielma.
+	
+		To appear in
+	<em>INFORMS Journal on Computing</em>, 2022.
+	</li>
+<li class="paper">
+<a href="#Regularity-in-mixed-integer-convex">Mixed-integer convex representability</a>.
+	M. Lubin, J. P. Vielma and I. Zadik.
+	<em>Mathematics of Operations Research</em> 47, 2021.
+	 pp. 720-749.</li>
 <li class="paper">
 <a href="#Building-Representative-Matched-Samples">Building representative matched samples with multi-valued treatments in
 large observational studies</a>.
@@ -494,14 +496,6 @@ Spectral functions on Euclidean Jordan algebras arise frequently in convex model
 <p>Submitted for publication, 2021.
 	</p>
 <p><a href="https://arxiv.org/abs/2103.04104">[PDF]</a></p>
-<br><br><h3 class="topic" id="Sum-of-squares-generalizations">Sum of squares generalizations for conic sets</h3>
-<p><a href="https://lkapelevich.github.io/">Lea Kapelevich</a>, <a href="https://github.com/chriscoey/">Chris Coey</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
-<blockquote>
-				In polynomial optimization problems, nonnegativity constraints are typically handled using the sum of squares condition. This can be efficiently enforced using semidefinite programming formulations, or as more recently proposed by Papp and Yildiz 2019, using the sum of squares cone directly in a nonsymmetric interior point algorithm. Beyond nonnegativity, more complicated polynomial constraints (in particular, generalizations of the positive semidefinite, second order and â1-norm cones) can also be modeled through structured sum of squares programs. We take a different approach and propose using more specialized polynomial cones instead. This can result in lower dimensional formulations, more efficient oracles for interior point methods, or self-concordant barriers with lower parameters. In most cases, these algorithmic advantages also translate to faster solving times in practice.
-								</blockquote>
-<p>Submitted for publication, 2021.
-	</p>
-<p><a href="https://arxiv.org/abs/2103.11499">[PDF]</a></p>
 <br><br><h3 class="topic" id="Performance-Enhancements-Generic-Conic">Performance enhancements for a generic conic interior point algorithm</h3>
 <p><a href="https://github.com/chriscoey/">Chris Coey</a>, <a href="https://lkapelevich.github.io/">Lea Kapelevich</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
@@ -518,14 +512,6 @@ Discrete black-box optimization problems are challenging for model-based optimiz
 <p>Submitted for publication, 2021.
 	</p>
 <p><a href="https://arxiv.org/abs/2110.09569">[PDF]</a></p>
-<br><br><h3 class="topic" id="Solving-Natural-Conic-Formulations">Solving natural conic formulations with Hypatia.jl</h3>
-<p><a href="https://github.com/chriscoey/">Chris Coey</a>, <a href="https://lkapelevich.github.io/">Lea Kapelevich</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
-<blockquote>
-					Many convex optimization problems can be represented through conic extended formulations with auxiliary variables and constraints using only the small number of standard cones recognized by advanced conic solvers such as MOSEK 9. Such extended formulations are often significantly larger and more complex than equivalent conic natural formulations, which can use a much broader class of exotic cones. We define an exotic cone as a proper cone for which we can implement tractable logarithmically homogeneous self-concordant barrier oracles for either the cone or its dual cone. In this paper we introduce Hypatia, a highly-configurable open-source conic primal-dual interior point solver with a generic interface for exotic cones. Hypatia is written in Julia and accessible through JuMP, and currently implements around two dozen useful predefined cones (some with multiple variants). We define some of Hypatia's exotic cones, and for conic constraints over these cones, we analyze techniques for constructing equivalent representations using the standard cones. For optimization problems from a variety of applications, we introduce natural formulations using these exotic cones, and we show that the natural formulations are simpler and lower-dimensional than the equivalent extended formulations. Our computational experiments demonstrate the potential advantages, especially in terms of solve time and memory usage, of solving the natural formulations with Hypatia compared to solving the extended formulations with either Hypatia or MOSEK 9.
-						</blockquote>
-<p>Submitted for publication, 2020.
-	</p>
-<p><a href="https://arxiv.org/abs/2005.01136">[PDF]</a></p>
 <br><br><h3 class="topic" id="Disjunctive-Cuts-for-Mixed-Integer-Conic">Disjunctive cuts for mixed-integer conic optimization</h3>
 <p><a href="https://www.gerad.ca/en/people/andrea-lodi">Andrea Lodi</a>, <a href="https://www.gerad.ca/en/people/mathieu-tanneau">Mathieu Tanneau</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
@@ -534,16 +520,34 @@ Discrete black-box optimization problems are challenging for model-based optimiz
 <p>Submitted for publication, 2019.
 	</p>
 <p><a href="https://arxiv.org/abs/1912.03166">[PDF]</a></p>
+<br><br><h3 class="topic" id="Sum-of-squares-generalizations">Sum of squares generalizations for conic sets</h3>
+<p><a href="https://lkapelevich.github.io/">Lea Kapelevich</a>, <a href="https://github.com/chriscoey/">Chris Coey</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
+<blockquote>
+In polynomial optimization problems, nonnegativity constraints are typically handled using the sum of squares condition. This can be efficiently enforced using semidefinite programming formulations, or as more recently proposed by Papp and Yildiz 2019, using the sum of squares cone directly in a nonsymmetric interior point algorithm. Beyond nonnegativity, more complicated polynomial constraints (in particular, generalizations of the positive semidefinite, second order and â1-norm cones) can also be modeled through structured sum of squares programs. We take a different approach and propose using more specialized polynomial cones instead. This can result in lower dimensional formulations, more efficient oracles for interior point methods, or self-concordant barriers with lower parameters. In most cases, these algorithmic advantages also translate to faster solving times in practice.
+				</blockquote>
+<p>
+		To appear in
+	<a href="http://www.springerlink.com/content/103081/">Mathematical Programming</a>, 2022.
+	</p>
+<p><a href="https://arxiv.org/abs/2103.11499">[PDF]</a></p>
+<br><br><h3 class="topic" id="Solving-Natural-Conic-Formulations">Solving natural conic formulations with Hypatia.jl</h3>
+<p><a href="https://github.com/chriscoey/">Chris Coey</a>, <a href="https://lkapelevich.github.io/">Lea Kapelevich</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
+<blockquote>
+					Many convex optimization problems can be represented through conic extended formulations with auxiliary variables and constraints using only the small number of standard cones recognized by advanced conic solvers such as MOSEK 9. Such extended formulations are often significantly larger and more complex than equivalent conic natural formulations, which can use a much broader class of exotic cones. We define an exotic cone as a proper cone for which we can implement tractable logarithmically homogeneous self-concordant barrier oracles for either the cone or its dual cone. In this paper we introduce Hypatia, a highly-configurable open-source conic primal-dual interior point solver with a generic interface for exotic cones. Hypatia is written in Julia and accessible through JuMP, and currently implements around two dozen useful predefined cones (some with multiple variants). We define some of Hypatia's exotic cones, and for conic constraints over these cones, we analyze techniques for constructing equivalent representations using the standard cones. For optimization problems from a variety of applications, we introduce natural formulations using these exotic cones, and we show that the natural formulations are simpler and lower-dimensional than the equivalent extended formulations. Our computational experiments demonstrate the potential advantages, especially in terms of solve time and memory usage, of solving the natural formulations with Hypatia compared to solving the extended formulations with either Hypatia or MOSEK 9.
+						</blockquote>
+<p>
+		To appear in
+	<a href="http://joc.pubs.informs.org/">INFORMS Journal on Computing</a>, 2022.
+	</p>
+<p><a href="https://arxiv.org/abs/2005.01136">[PDF]</a></p>
 <br><br><h3 class="topic" id="Regularity-in-mixed-integer-convex">Mixed-integer convex representability</h3>
 <p><a href="https://mlubin.github.io/">Miles Lubin</a>, <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a> and <a href="https://cims.nyu.edu/~iz368/">Ilias Zadik</a></p>
 <blockquote>
 				Motivated by recent advances in solution methods for mixed-integer convex optimization (MICP), we study the fundamental and open question of which sets can be represented exactly as feasible regions of MICP problems. We establish several results in this direction, including the first complete characterization for the mixed-binary case and a simple necessary condition for the general case. We use the latter to derive the first non-representability results for various non-convex sets such as the set of rank-1 matrices and the set of prime numbers. Finally, in correspondence with the seminal work on mixed-integer linear representability by Jeroslow and Lowe, we study the representability question under rationality assumptions. Under these rationality assumptions,  we establish that representable sets obey strong regularity properties such as periodicity, and we provide a complete characterization of representable subsets of the natural numbers and of representable compact sets. Interestingly, in the case of subsets of natural numbers, our results provide a clear separation between the mathematical modeling power of mixed-integer linear and mixed-integer convex optimization. In the case of compact sets, our results imply that using unbounded integer variables is necessary only for modeling unbounded sets.
 		</blockquote>
-<p>
-		To appear in
-	<a href="http://mor.pubs.informs.org/">Mathematics of Operations Research</a>, 2021.
-	</p>
-<p><a href="https://arxiv.org/abs/1706.05135">[PDF]</a> <a href="https://doi.org/10.1287/moor.2021.1146">[DOI:10.1287/moor.2021.1146]</a></p>
+<p><a href="http://mor.pubs.informs.org/">Mathematics of Operations Research</a> 47, 2021.
+	 pp. 720-749.</p>
+<p><a href="https://arxiv.org/abs/1706.05135">[PDF]</a> <a href="https://doi.org/10.1287/moor.2021.1146">[DOI:10.1287/moor.2021.1146]</a><a href="Regularity-in-mixed-integer-convex.bib">[BibTeX]</a></p>
 <br><br><h3 class="topic" id="Building-Representative-Matched-Samples">Building representative matched samples with multi-valued treatments in
 large observational studies</h3>
 <p><a href="https://www.magdalenabennett.com/">Magdalena Bennett</a>, <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a> and <a href="http://jrzubizarreta.com">Jos&eacute; R. Zubizarreta</a></p>
