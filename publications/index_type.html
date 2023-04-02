@@ -59,33 +59,34 @@
 <h2>Publications</h2>
 <p class="timestamp"><a href="index.html">Selected</a> | <strong class="sele">All by Type</strong> | <a href="index_topic.html">All by Topic</a></p>
 <h3 class="topic">Submitted</h3>
+<ol></ol>
+<h3 class="topic">Peer Reviewed Journal Articles</h3>
 <ol>
-<li class="paper">
-<a href="#JuMP-1.0">JuMP 1.0</a>.
-	M. Lubin, O. Dowson, J. D. Garcia, J. Huchette, B. Legat and J. P. Vielma.
-	Submitted for publication, 2022.
-	</li>
 <li class="paper">
 <a href="#Shapes-and-recession-cones">Shapes and recession cones in mixed-integer convex representability</a>.
 	I. Zadik, M. Lubin and J. P. Vielma.
-	Submitted for publication, 2021.
+	
+		To appear in
+	<em>Mathematical Programming</em>, 2023.
 	</li>
-</ol>
-<h3 class="topic">Peer Reviewed Journal Articles</h3>
-<ol>
+<li class="paper">
+<a href="#Performance-Enhancements-Generic-Conic">Performance enhancements for a generic conic interior point algorithm</a>.
+	C. Coey, L. Kapelevich and J. P. Vielma.
+	<em>Mathematical Programming Computation</em> 15, 2023.
+	 pp. 53-101.</li>
+<li class="paper">
+<a href="#JuMP-1.0">JuMP 1.0: Recent improvements to a modeling language for mathematical optimization</a>.
+	M. Lubin, O. Dowson, J. D. Garcia, J. Huchette, B. Legat and J. P. Vielma.
+	
+		To appear in
+	<em>Mathematical Programming Computation</em>, 2022.
+	</li>
 <li class="paper">
 <a href="#conic-optimization-with-spectral-functions">Conic optimization with spectral functions on Euclidean Jordan algebras</a>.
 	C. Coey, L. Kapelevich and J. P. Vielma.
 	
 		To appear in
 	<em>Mathematics of Operations Research</em>, 2022.
-	</li>
-<li class="paper">
-<a href="#Performance-Enhancements-Generic-Conic">Performance enhancements for a generic conic interior point algorithm</a>.
-	C. Coey, L. Kapelevich and J. P. Vielma.
-	
-		To appear in
-	<em>Mathematical Programming Computation</em>, 2022.
 	</li>
 <li class="paper">
 <a href="#computing-conjugate-barrier-information">Computing conjugate barrier information for nonsymmetric cones</a>.
@@ -104,10 +105,8 @@
 <li class="paper">
 <a href="#Solving-Natural-Conic-Formulations">Solving natural conic formulations with Hypatia.jl</a>.
 	C. Coey, L. Kapelevich and J. P. Vielma.
-	
-		To appear in
-	<em>INFORMS Journal on Computing</em>, 2022.
-	</li>
+	<em>INFORMS Journal on Computing</em> 34, 2022.
+	 pp. 2686-2699.</li>
 <li class="paper">
 <a href="#Disjunctive-Cuts-for-Mixed-Integer-Conic">Disjunctive cuts for mixed-integer conic optimization</a>.
 	A. Lodi, M. Tanneau and J. P. Vielma.
@@ -121,7 +120,10 @@
 	
 		To appear in
 	<em>Operations Research</em>, 2022.
-	</li>
+	<ul class="award"> <li>
+<strong>Formulations in this paper has been adopted by Gurobi v9.5</strong>. </li>
+</ul>
+</li>
 <li class="paper">
 <a href="#Regularity-in-mixed-integer-convex">Mixed-integer convex representability</a>.
 	M. Lubin, J. P. Vielma and I. Zadik.
@@ -486,22 +488,34 @@ large observational studies</a>.
 	 pp. 21-28.</li>
 </ol>
 <br><br><br><h2>Publication Details</h2>
-<br><br><h3 class="topic" id="JuMP-1.0">JuMP 1.0</h3>
-<p><a href="https://mlubin.github.io/">Miles Lubin</a>, <a href="https://odow.github.io/">Oscar Dowson</a>, <a href="http://www.psr-inc.com/team/?current=p9956">Joaquim Dias Garcia</a>, <a href="http://www.joehuchette.com/">Joey Huchette</a>, <a href="https://blegat.github.io/">Benoît Legat</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
-<blockquote>
-			JuMP is an algebraic modeling language embedded in the Julia programming language. JuMP allows users to model optimization problems of a variety of kinds, including linear programming, integer programming, conic optimization, semidefinite programming, and nonlinear programming, and handles the low-level details of communicating with solvers. After nearly 10 years in development, JuMP 1.0 was released in March, 2022. In this short communication, we highlight the improvements to JuMP from recent releases up to and including 1.0.
-												</blockquote>
-<p>Submitted for publication, 2022.
-	</p>
-<p><a href="https://arxiv.org/abs/2206.03866">[PDF]</a></p>
 <br><br><h3 class="topic" id="Shapes-and-recession-cones">Shapes and recession cones in mixed-integer convex representability</h3>
 <p><a href="https://cims.nyu.edu/~iz368/">Ilias Zadik</a>, <a href="https://mlubin.github.io/">Miles Lubin</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
 		Mixed-integer convex representable (MICP-R) sets are those sets that can be represented exactly through a mixed-integer convex programming formulation. Following up on recent work by Lubin et al. (2017, 2020) we investigate structural geometric properties of MICP-R sets, which strongly differentiate them from the class of mixed-integer linear representable sets (MILP-R). First, we provide an example of an MICP-R set which is the countably infinite union of convex sets with countably infinitely many different recession cones. This is in sharp contrast with MILP-R sets which are at most infinite unions of polyhedra that share the same recession cone. Second, we provide an example of an MICP-R set which is the countably infinite union of polytopes all of which have different shapes (no pair is combinatorially equivalent, which implies they are not affine transformations of each other). Again, this is in sharp contrast with MILP-R sets which are at most infinite unions of polyhedra that are all translations of a finite subset of themselves. Interestingly, we show that a countably infinite union of convex sets sharing the same volume can be MICP-R only if the sets are all translations of a finite subset of themselves (i.e. the natural conceptual analogue to the MILP-R case).
 				</blockquote>
-<p>Submitted for publication, 2021.
+<p>
+		To appear in
+	<a href="http://www.springerlink.com/content/103081/">Mathematical Programming</a>, 2023.
 	</p>
-<p><a href="https://arxiv.org/abs/2103.03379">[PDF]</a></p>
+<p><a href="https://arxiv.org/abs/2103.03379">[PDF]</a> <a href="https://doi.org/10.1007/s10107-023-01946-4">[DOI:10.1007/s10107-023-01946-4]</a></p>
+<br><br><h3 class="topic" id="Performance-Enhancements-Generic-Conic">Performance enhancements for a generic conic interior point algorithm</h3>
+<p><a href="https://github.com/chriscoey/">Chris Coey</a>, <a href="https://lkapelevich.github.io/">Lea Kapelevich</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
+<blockquote>
+In recent work, we provide computational arguments for expanding the class of proper cones recognized by conic optimization solvers, to permit simpler, smaller, more natural conic formulations. We define an exotic cone as a proper cone for which we can implement a small set of tractable (i.e. fast, numerically stable, analytic) oracles for a logarithmically homogeneous self-concordant barrier for the cone or for its dual cone. Our extensible, open source conic interior point solver, Hypatia, allows modeling and solving any conic optimization problem over a Cartesian product of exotic cones. In this paper, we introduce Hypatia's interior point algorithm. Our algorithm is based on that of Skajaa and Ye [2015], which we generalize by handling exotic cones without tractable primal oracles. With the goal of improving iteration count and solve time in practice, we propose a sequence of four enhancements to the interior point stepping procedure of Skajaa and Ye [2015]: (1) loosening the central path proximity condition, (2) adjusting the directions using a third order directional derivative barrier oracle, (3) performing a backtracking search on a curve, and (4) combining the prediction and centering directions. We implement 23 useful exotic cones in Hypatia. We summarize the complexity of computing oracles for these cones, showing that our new third order oracle is not a bottleneck, and we derive efficient and numerically stable oracle implementations for several cones. We generate a diverse benchmark set of 379 conic problems from 37 different applied examples. Our computational testing shows that each stepping enhancement improves Hypatia's iteration count and solve time. Altogether, the enhancements reduce the shifted geometric means of iteration count and solve time by over 80% and 70% respectively.
+</blockquote>
+<p><a href="http://link.springer.com/journal/12532">Mathematical Programming Computation</a> 15, 2023.
+	 pp. 53-101.</p>
+<p><a href="https://arxiv.org/abs/2107.04262">[PDF]</a> <a href="https://doi.org/10.1007/s12532-022-00226-0">[DOI:10.1007/s12532-022-00226-0]</a><a href="Performance-Enhancements-Generic-Conic.bib">[BibTeX]</a></p>
+<br><br><h3 class="topic" id="JuMP-1.0">JuMP 1.0: Recent improvements to a modeling language for mathematical optimization</h3>
+<p><a href="https://mlubin.github.io/">Miles Lubin</a>, <a href="https://odow.github.io/">Oscar Dowson</a>, <a href="http://www.psr-inc.com/team/?current=p9956">Joaquim Dias Garcia</a>, <a href="http://www.joehuchette.com/">Joey Huchette</a>, <a href="https://blegat.github.io/">Benoît Legat</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
+<blockquote>
+			JuMP is an algebraic modeling language embedded in the Julia programming language. JuMP allows users to model optimization problems of a variety of kinds, including linear programming, integer programming, conic optimization, semidefinite programming, and nonlinear programming, and handles the low-level details of communicating with solvers. After nearly 10 years in development, JuMP 1.0 was released in March, 2022. In this short communication, we highlight the improvements to JuMP from recent releases up to and including 1.0.
+												</blockquote>
+<p>
+		To appear in
+	<a href="http://link.springer.com/journal/12532">Mathematical Programming Computation</a>, 2022.
+	</p>
+<p><a href="https://arxiv.org/abs/2206.03866">[PDF]</a></p>
 <br><br><h3 class="topic" id="conic-optimization-with-spectral-functions">Conic optimization with spectral functions on Euclidean Jordan algebras</h3>
 <p><a href="https://github.com/chriscoey/">Chris Coey</a>, <a href="https://lkapelevich.github.io/">Lea Kapelevich</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
@@ -511,17 +525,7 @@ Spectral functions on Euclidean Jordan algebras arise frequently in convex model
 		To appear in
 	<a href="http://mor.pubs.informs.org/">Mathematics of Operations Research</a>, 2022.
 	</p>
-<p><a href="https://arxiv.org/abs/2103.04104">[PDF]</a></p>
-<br><br><h3 class="topic" id="Performance-Enhancements-Generic-Conic">Performance enhancements for a generic conic interior point algorithm</h3>
-<p><a href="https://github.com/chriscoey/">Chris Coey</a>, <a href="https://lkapelevich.github.io/">Lea Kapelevich</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
-<blockquote>
-In recent work, we provide computational arguments for expanding the class of proper cones recognized by conic optimization solvers, to permit simpler, smaller, more natural conic formulations. We define an exotic cone as a proper cone for which we can implement a small set of tractable (i.e. fast, numerically stable, analytic) oracles for a logarithmically homogeneous self-concordant barrier for the cone or for its dual cone. Our extensible, open source conic interior point solver, Hypatia, allows modeling and solving any conic optimization problem over a Cartesian product of exotic cones. In this paper, we introduce Hypatia's interior point algorithm. Our algorithm is based on that of Skajaa and Ye [2015], which we generalize by handling exotic cones without tractable primal oracles. With the goal of improving iteration count and solve time in practice, we propose a sequence of four enhancements to the interior point stepping procedure of Skajaa and Ye [2015]: (1) loosening the central path proximity condition, (2) adjusting the directions using a third order directional derivative barrier oracle, (3) performing a backtracking search on a curve, and (4) combining the prediction and centering directions. We implement 23 useful exotic cones in Hypatia. We summarize the complexity of computing oracles for these cones, showing that our new third order oracle is not a bottleneck, and we derive efficient and numerically stable oracle implementations for several cones. We generate a diverse benchmark set of 379 conic problems from 37 different applied examples. Our computational testing shows that each stepping enhancement improves Hypatia's iteration count and solve time. Altogether, the enhancements reduce the shifted geometric means of iteration count and solve time by over 80% and 70% respectively.
-</blockquote>
-<p>
-		To appear in
-	<a href="http://link.springer.com/journal/12532">Mathematical Programming Computation</a>, 2022.
-	</p>
-<p><a href="https://arxiv.org/abs/2107.04262">[PDF]</a> <a href="https://doi.org/10.1007/s12532-022-00226-0">[DOI:10.1007/s12532-022-00226-0]</a></p>
+<p><a href="https://arxiv.org/abs/2103.04104">[PDF]</a> <a href="https://doi.org/10.1287/moor.2022.1324">[DOI:10.1287/moor.2022.1324]</a></p>
 <br><br><h3 class="topic" id="computing-conjugate-barrier-information">Computing conjugate barrier information for nonsymmetric cones</h3>
 <p><a href="https://lkapelevich.github.io/">Lea Kapelevich</a>, <a href="https://sites.google.com/andersens.name/erlingdandersen/startside">Erling D. Andersen</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
@@ -547,11 +551,9 @@ In polynomial optimization problems, nonnegativity constraints are typically han
 <blockquote>
 					Many convex optimization problems can be represented through conic extended formulations with auxiliary variables and constraints using only the small number of standard cones recognized by advanced conic solvers such as MOSEK 9. Such extended formulations are often significantly larger and more complex than equivalent conic natural formulations, which can use a much broader class of exotic cones. We define an exotic cone as a proper cone for which we can implement tractable logarithmically homogeneous self-concordant barrier oracles for either the cone or its dual cone. In this paper we introduce Hypatia, a highly-configurable open-source conic primal-dual interior point solver with a generic interface for exotic cones. Hypatia is written in Julia and accessible through JuMP, and currently implements around two dozen useful predefined cones (some with multiple variants). We define some of Hypatia's exotic cones, and for conic constraints over these cones, we analyze techniques for constructing equivalent representations using the standard cones. For optimization problems from a variety of applications, we introduce natural formulations using these exotic cones, and we show that the natural formulations are simpler and lower-dimensional than the equivalent extended formulations. Our computational experiments demonstrate the potential advantages, especially in terms of solve time and memory usage, of solving the natural formulations with Hypatia compared to solving the extended formulations with either Hypatia or MOSEK 9.
 						</blockquote>
-<p>
-		To appear in
-	<a href="http://joc.pubs.informs.org/">INFORMS Journal on Computing</a>, 2022.
-	</p>
-<p><a href="https://arxiv.org/abs/2005.01136">[PDF]</a> <a href="https://doi.org/10.1287/ijoc.2022.1202">[DOI:10.1287/ijoc.2022.1202]</a></p>
+<p><a href="http://joc.pubs.informs.org/">INFORMS Journal on Computing</a> 34, 2022.
+	 pp. 2686-2699.</p>
+<p><a href="https://arxiv.org/abs/2005.01136">[PDF]</a> <a href="https://doi.org/10.1287/ijoc.2022.1202">[DOI:10.1287/ijoc.2022.1202]</a><a href="Solving-Natural-Conic-Formulations.bib">[BibTeX]</a></p>
 <br><br><h3 class="topic" id="Disjunctive-Cuts-for-Mixed-Integer-Conic">Disjunctive cuts for mixed-integer conic optimization</h3>
 <p><a href="https://tech.cornell.edu/people/andrea-lodi/">Andrea Lodi</a>, <a href="https://www.gerad.ca/en/people/mathieu-tanneau">Mathieu Tanneau</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
