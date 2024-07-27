@@ -61,6 +61,11 @@
 <h3 class="topic">Convex Optimization</h3>
 <ol>
 <li class="paper">
+<a href="#computing-conjugate-barrier-information">Computing conjugate barrier information for nonsymmetric cones</a>.
+	L. Kapelevich, E. D. Andersen and J. P. Vielma.
+	<em>Journal of Optimization Theory and Applications</em> 202, 2024.
+	 pp. 271-295.</li>
+<li class="paper">
 <a href="#Performance-Enhancements-Generic-Conic">Performance enhancements for a generic conic interior point algorithm</a>.
 	C. Coey, L. Kapelevich and J. P. Vielma.
 	<em>Mathematical Programming Computation</em> 15, 2023.
@@ -75,13 +80,6 @@
 	C. Coey, L. Kapelevich and J. P. Vielma.
 	<em>Mathematics of Operations Research</em> 48, 2022.
 	 pp. 1906-1933.</li>
-<li class="paper">
-<a href="#computing-conjugate-barrier-information">Computing conjugate barrier information for nonsymmetric cones</a>.
-	L. Kapelevich, E. D. Andersen and J. P. Vielma.
-	
-		To appear in
-	<em>Journal of Optimization Theory and Applications</em>, 2022.
-	</li>
 <li class="paper">
 <a href="#Solving-Natural-Conic-Formulations">Solving natural conic formulations with Hypatia.jl</a>.
 	C. Coey, L. Kapelevich and J. P. Vielma.
@@ -598,6 +596,14 @@ large observational studies</a>.
 <p><a href="http://www.springerlink.com/content/103081/">Mathematical Programming</a> 204, 2024.
 	 pp. 739-752.</p>
 <p><a href="https://arxiv.org/abs/2103.03379">[PDF]</a> <a href="https://doi.org/10.1007/s10107-023-01946-4">[DOI:10.1007/s10107-023-01946-4]</a><a href="Shapes-and-recession-cones.bib">[BibTeX]</a></p>
+<br><br><h3 class="topic" id="computing-conjugate-barrier-information">Computing conjugate barrier information for nonsymmetric cones</h3>
+<p><a href="https://lkapelevich.github.io/">Lea Kapelevich</a>, <a href="https://sites.google.com/andersens.name/erlingdandersen/startside">Erling D. Andersen</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
+<blockquote>
+The recent interior point algorithm by Dahl and Andersen, 2021 for nonsymmetric cones requires derivative information from the conjugate of the barrier function of the cones in the problem. Besides a few special cases, there is no indication of when this information is efficient to evaluate. We show how to compute the gradient of the conjugate barrier function for seven useful nonsymmetric cones. In some cases this is helpful for deriving closed-form expressions for the inverse Hessian operator for the primal barrier.
+									</blockquote>
+<p><a href="https://www.springer.com/journal/10957">Journal of Optimization Theory and Applications</a> 202, 2024.
+	 pp. 271-295.</p>
+<p><a href="https://arxiv.org/abs/2201.04121">[PDF]</a> <a href="https://doi.org/10.1007/s10957-022-02076-1">[DOI:10.1007/s10957-022-02076-1]</a><a href="computing-conjugate-barrier-information.bib">[BibTeX]</a></p>
 <br><br><h3 class="topic" id="JuMP-1.0">JuMP 1.0: Recent improvements to a modeling language for mathematical optimization</h3>
 <p><a href="https://mlubin.github.io/">Miles Lubin</a>, <a href="https://odow.github.io/">Oscar Dowson</a>, <a href="http://www.psr-inc.com/team/?current=p9956">Joaquim Dias Garcia</a>, <a href="http://www.joehuchette.com/">Joey Huchette</a>, <a href="https://blegat.github.io/">Benoît Legat</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
@@ -638,16 +644,6 @@ Spectral functions on Euclidean Jordan algebras arise frequently in convex model
 <p><a href="http://mor.pubs.informs.org/">Mathematics of Operations Research</a> 48, 2022.
 	 pp. 1906-1933.</p>
 <p><a href="https://arxiv.org/abs/2103.04104">[PDF]</a> <a href="https://doi.org/10.1287/moor.2022.1324">[DOI:10.1287/moor.2022.1324]</a><a href="conic-optimization-with-spectral-functions.bib">[BibTeX]</a></p>
-<br><br><h3 class="topic" id="computing-conjugate-barrier-information">Computing conjugate barrier information for nonsymmetric cones</h3>
-<p><a href="https://lkapelevich.github.io/">Lea Kapelevich</a>, <a href="https://sites.google.com/andersens.name/erlingdandersen/startside">Erling D. Andersen</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
-<blockquote>
-The recent interior point algorithm by Dahl and Andersen, 2021 for nonsymmetric cones requires derivative information from the conjugate of the barrier function of the cones in the problem. Besides a few special cases, there is no indication of when this information is efficient to evaluate. We show how to compute the gradient of the conjugate barrier function for seven useful nonsymmetric cones. In some cases this is helpful for deriving closed-form expressions for the inverse Hessian operator for the primal barrier.
-									</blockquote>
-<p>
-		To appear in
-	<a href="https://www.springer.com/journal/10957">Journal of Optimization Theory and Applications</a>, 2022.
-	</p>
-<p><a href="https://arxiv.org/abs/2201.04121">[PDF]</a> <a href="https://doi.org/10.1007/s10957-022-02076-1">[DOI:10.1007/s10957-022-02076-1]</a></p>
 <br><br><h3 class="topic" id="Solving-Natural-Conic-Formulations">Solving natural conic formulations with Hypatia.jl</h3>
 <p><a href="https://github.com/chriscoey/">Chris Coey</a>, <a href="https://lkapelevich.github.io/">Lea Kapelevich</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
