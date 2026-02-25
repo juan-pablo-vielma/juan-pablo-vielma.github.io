@@ -61,6 +61,16 @@
 <h3 class="topic">Convex Optimization</h3>
 <ol>
 <li class="paper">
+<a href="#Convex-duality-contracts">Convex duality contracts for production-grade mathematical optimization</a>.
+	J. P. Vielma, R. Anderson and J. Huchette.
+	Submitted for publication, 2026.
+	</li>
+<li class="paper">
+<a href="#Convex-analysis-for-composite">Convex analysis for composite functions without K-convexity</a>.
+	J. P. Vielma.
+	Submitted for publication, 2026.
+	</li>
+<li class="paper">
 <a href="#computing-conjugate-barrier-information">Computing conjugate barrier information for nonsymmetric cones</a>.
 	L. Kapelevich, E. D. Andersen and J. P. Vielma.
 	<em>Journal of Optimization Theory and Applications</em> 202, 2024.
@@ -588,6 +598,21 @@ large observational studies</a>.
 	</li>
 </ol>
 <br><br><br><h2>Publication Details</h2>
+<br><br><h3 class="topic" id="Convex-duality-contracts">Convex duality contracts for production-grade mathematical optimization</h3>
+<p><a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a>, <a href="https://research.google/people/RossMichaelAnderson/">Ross Anderson</a> and <a href="http://www.joehuchette.com/">Joey Huchette</a></p>
+<blockquote>
+			Deploying mathematical optimization in autonomous production systems requires precise contracts for objects returned by an optimization solver. Unfortunately, conventions on dual solution and infeasibility certificates (rays) vary widely across solvers and classes of problems. This paper presents the theoretical framework used by MathOpt (a domain-specific language developed and used at Google) to unify these notions. We propose an abstract primal-dual pair based on a simplified Fenchel duality scheme that allows for the mechanical derivation of dual problems and associated contracts for all classes of problems currently supported by MathOpt (including those with linear and quadratic objectives plus linear, conic, quadratic, and two-sided linear constraints). We also show how these contracts can improve clarity of complementary-slackness based optimality conditions for certain classes of problems.												</blockquote>
+<p>Submitted for publication, 2026.
+	</p>
+<p><a href="https://arxiv.org/abs/2602.04048">[PDF]</a></p>
+<br><br><h3 class="topic" id="Convex-analysis-for-composite">Convex analysis for composite functions without K-convexity</h3>
+<p><a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
+<blockquote>
+			Composite functions have been studied for over 40 years and appear in a wide range of optimization problems. Convex analysis of these functions focuses on (i) conditions for convexity of the function based on properties of its components, (ii) formulas for the convex conjugate of the function based on those of its components and (iii) chain-rule-like formulas for the sub-differential of the function. To the best of our knowledge all existing results on this matter are based on the notion of K-convexity of functions where K is a closed convex cone. These notions can be considered elementary when K is the non-negative orthant, but otherwise may limit the accessibility of the associated results. In this work we show how standard results on perturbation function based duality can be used to recover and extend existing results without the need for K-convexity. We also provide a detailed comparison with K-convexity based results and show that, while K-convexity is not needed for the convex analysis of composite functions, it certainly aids in verifying the conditions associated with our proposed results. Finally, we provide necessary conditions for the conjugate and sub-differential formulas that are less restrictive than those required by the existing results.
+												</blockquote>
+<p>Submitted for publication, 2026.
+	</p>
+<p><a href="https://arxiv.org/abs/2601.10843">[PDF]</a></p>
 <br><br><h3 class="topic" id="Shapes-and-recession-cones">Shapes and recession cones in mixed-integer convex representability</h3>
 <p><a href="https://cims.nyu.edu/~iz368/">Ilias Zadik</a>, <a href="https://mlubin.github.io/">Miles Lubin</a> and <a href="http://web.mit.edu/jvielma/www/">Juan Pablo Vielma</a></p>
 <blockquote>
